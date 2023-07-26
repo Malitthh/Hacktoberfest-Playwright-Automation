@@ -53,5 +53,5 @@ Open the index.html file in a web browser.
 
 Provide contact information or any additional details about who to reach out to for support or inquiries related to the project.
 
-## Contributors
+### Contributors
 <a href="https://github.com/Malitthh/playwright-automation/graphs/contributors">
