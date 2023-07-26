@@ -26,6 +26,8 @@ Join us in this welcoming GitHub repository dedicated to empowering and engaging
 6. `npm init playwright@latest`
 
 Refer [CONTRIBUTING.md](https://github.com/Malitthh/playwright-automation/blob/main/CONTRIBUTING.md) before sending a PR.
+
+
 Create your profile for fallfest [here](https://hacktoberfest.com/profile/).
 
 ### Installation
