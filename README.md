@@ -1,12 +1,12 @@
 ## Playwright-Automation
 
-### Welcome to `fallfest-playwright`
+<!-- ### Welcome to `Hacktoberfest-playwright` -->
 
 ### Description
 
 Join us in this welcoming GitHub repository dedicated to empowering and engaging novice contributors in the world of open-source projects. We are focused on incorporating Playwright test scripts for both UI and API testing, while exclusively utilizing legitimate free APIs and UIs to automate these scripts. Contribute, learn, and grow with us as we collaborate on open-source projects!
 
-![alt fallfest-banner](./fallfest-banner.jpg)
+<!--![alt Hacktoberfestfest-banner](./fallfest-banner.jpg) -->
 
 ### Table of Contents
 
@@ -28,7 +28,7 @@ Join us in this welcoming GitHub repository dedicated to empowering and engaging
 Refer [CONTRIBUTING.md](https://github.com/Malitthh/playwright-automation/blob/main/CONTRIBUTING.md) before sending a PR.
 
 
-Create your profile for fallfest [here](https://hacktoberfest.com/profile/).
+<!--Create your profile for hacktoberfest [here](https://hacktoberfest.com/profile/).-->
 
 ### Installation
 
@@ -54,7 +54,8 @@ Open the index.html file in a web browser.
 Provide contact information or any additional details about who to reach out to for support or inquiries related to the project.
 
 ### Contributors
-<a href="https://github.com/Malitthh/playwright-automation/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=Malitthh/playwright-automation&max=100" alt="Lista de contribuidores" width="100%"/>
-</a>
+<!-- <a href="https://github.com/Malitthh/playwright-automation/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=Malitthh/playwright-automation&max=500" alt="Lista de contribuidores" width="100%"/>
+</a> -->
+
 
