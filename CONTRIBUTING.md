@@ -48,4 +48,4 @@ float           myWidth;
 </code></pre></div></td>         </tr>         <tr>             <td><a name="15436" id="15436"></a> Constants</td>             <td><a name="15438" id="15438"></a> The names of variables declared class constants and of ANSI constants should be all uppercase with words separated by underscores ("_"). (ANSI constants should be avoided, for ease of debugging.)</td>             <td><a name="15440" id="15440"></a> static final int MIN_WIDTH = 4;</p>             <p><a name="18753" id="18753"></a> static final int MAX_WIDTH = 999;</p>             <p><a name="33897" id="33897"></a> static final int GET_THE_CPU = 1;</td>         </tr>     </tbody> </table>  </div></div>    <!-- CN15v0 -->
 
 
-Reference: https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html
+Reference: https://www.w3schools.com/js/js_conventions.asp
