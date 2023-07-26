@@ -22,8 +22,8 @@ Join us in this welcoming GitHub repository dedicated to empowering and engaging
 2. Set "NODE_HOME" env variables
 3. Create Playwright working folder
 4. Generate package.json
-    4.1 Go inside the project folder and do CMD
-    4.2 npm init playwright@latest
+5. Go inside the project folder and do CMD
+6. `npm init playwright@latest`
 
 Refer [CONTRIBUTING.md](https://github.com/Malitthh/playwright-automation/blob/main/CONTRIBUTING.md) before sending a PR.
 Create your profile for fallfest [here](https://hacktoberfest.com/profile/).
