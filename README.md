@@ -1,6 +1,12 @@
 ## Playwright-Automation
 
-Briefly describe the purpose and scope of the project.
+### Welcome to `fallfest-playwright`
+
+### Description
+
+Join us in this welcoming GitHub repository dedicated to empowering and engaging novice contributors in the world of open-source projects. We are focused on incorporating Playwright test scripts for both UI and API testing, while exclusively utilizing legitimate free APIs and UIs to automate these scripts. Contribute, learn, and grow with us as we collaborate on open-source projects!
+
+![alt fallfest-banner](./fallfest-banner.jpg)
 
 ### Table of Contents
 
