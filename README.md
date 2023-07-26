@@ -18,9 +18,15 @@ Join us in this welcoming GitHub repository dedicated to empowering and engaging
 
 ### Prerequisites
 
-List the software and tools that need to be installed before running the project. Provide instructions on how to install them if necessary.
-Node.js (version x.x.x or higher)
-JDK (Java Development Kit) with JAVA_HOME environment variable set
+1. Download Node.js
+2. Set "NODE_HOME" env variables
+3. Create Playwright working folder
+4. Generate package.json
+    4.1 Go inside the project folder and do CMD
+    4.2 npm init playwright@latest
+
+Refer [CONTRIBUTING.md](https://github.com/Malitthh/playwright-automation/blob/main/CONTRIBUTING.md) before sending a PR.
+Create your profile for fallfest [here](https://hacktoberfest.com/profile/).
 
 ### Installation
 
