@@ -55,5 +55,6 @@ Provide contact information or any additional details about who to reach out to 
 
 ### Contributors
 <a href="https://github.com/Malitthh/playwright-automation/graphs/contributors">
- <img src="https://contributors-img.web.app/image?repo=Malitthh/playwright-automation&max=500" alt="Lista de contribuidores" width="100%"/>
- </a>
+  <img src="https://contributors-img.web.app/image?repo=Malitthh/playwright-automation&max=100" alt="Lista de contribuidores" width="100%"/>
+</a>
+
