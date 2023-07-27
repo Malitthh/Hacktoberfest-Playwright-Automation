@@ -43,7 +43,7 @@ for creating a new project,
 
 for this project,
 
-1. type `npm install` on IDE terminal should be enough
+1. Type `npm install` on IDE terminal should be enough.
 
 ### Running the Tests
 
