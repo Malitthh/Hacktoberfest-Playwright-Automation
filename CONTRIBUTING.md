@@ -19,8 +19,7 @@ $ git clone https://github.com/your_username/playwright-automation.git
 
 5. Open the repo code using any IDE/text-editors
 
-
-6. There are different packages for topics such as file, oop, generics, collections and exceptions. Write a program under your desired topic.
+6. Please include your test data under the "fixture" folder and your test scripts under the "test" folder. Utilize "commons.ts" to store common methods. Write any UI or API scripts related to your desired topic.
 
 7. Add, Commit and Push the changes to your forked repo
 ``` bash
@@ -45,4 +44,6 @@ Name the packages, classes, interfaces, variables, methods following the convent
 </code></pre></div></td>         </tr>         <tr>                      </tr>     </tbody> </table>  </div></div>    <!-- CN15v0 -->
 
 
-Reference: https://www.w3schools.com/js/js_conventions.asp
+Reference: 
+https://www.w3schools.com/js/js_conventions.asp
+https://playwright.dev/docs/intro
