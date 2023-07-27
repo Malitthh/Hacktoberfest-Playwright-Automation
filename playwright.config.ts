@@ -40,7 +40,7 @@ const config = {
     /* Maximum time each action such as `click()` can take. Defaults to 0 (no limit). */
     actionTimeout: 0,
     ignoreHTTPSErrors: true,
-    /* Base URL to use in actions like `await page.goto('/')`. */
+    /* baseURL to use in actions like `await page.goto('/')`. */
     baseURL: 'https://opensource-demo.orangehrmlive.com/',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
