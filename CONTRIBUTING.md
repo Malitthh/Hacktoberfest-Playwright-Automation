@@ -48,15 +48,23 @@ Name the packages, classes, interfaces, variables, methods following the convent
 When you commit follow this if possible, 
 
 `type : Description`
+
 `git commit -m "refactor:Login TC updated"`
 
 few types,
+
 `feat:` when relates to features
+
 `fix:` when relates to bug fixes
+
 `docs:` when relates to documentation
+
 `style:` when relates to style
+
 `refactore:` when relates to code refactoring
+
 `test:` when relates to test files
+
 `revert:` when relates to revert
 
 Reference: 
