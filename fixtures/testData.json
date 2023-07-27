@@ -1,5 +1,9 @@
 {
     "Url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
     "Username": "Admin",
-    "Password": "admin123"
+    "Password": "admin123",
+    "Employeename": "Alice Duval",
+    "Firstname": "Soap",
+    "Middlename": "Mactavish",
+    "Lastname": "COD"
 }
