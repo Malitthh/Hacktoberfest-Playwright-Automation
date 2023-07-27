@@ -45,7 +45,7 @@ Name the packages, classes, interfaces, variables, methods following the convent
 
 #### Commit Format
 
-When you commit follow this, 
+When you commit follow this if possible, 
 
 `type : Description`
 `git commit -m "refactor:Login TC updated"`
