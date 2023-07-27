@@ -23,9 +23,9 @@ class commons {
         await this.page.locator("//span[text()='Admin']").click();
         await this.page.getByPlaceholder('Type for hints...').fill(data.Employeename);
         await this.page.getByRole('option', { name: data.Employeename }).click();
-        const element = await this.page.waitForSelector("//div[contains(text(),'Alice Duval')]");
+        const element = await this.page.waitForSelector(`//div[contains(text(), '${data.Employeename}')]`);
         const actualText = await element.innerText();
-        await expect(actualText).toEqual("Alice Duval");
+        await expect(actualText).toEqual(data.Employeename);
     }
 
     public async updateMyInfo(){
