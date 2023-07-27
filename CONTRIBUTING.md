@@ -1,4 +1,3 @@
-
 #### Steps for contribution
 
 1. Fork the repo
@@ -37,7 +36,7 @@ $ git push origin mybranch
 <br>
 
 
-### Naming Conventions
+#### Naming Conventions
 Name the packages, classes, interfaces, variables, methods following the convention.
 <br><br>
 <div class="otable-w1">
