@@ -69,4 +69,5 @@ few types,
 
 Reference: 
 https://www.w3schools.com/js/js_conventions.asp
+
 https://playwright.dev/docs/intro
