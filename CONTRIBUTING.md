@@ -43,6 +43,21 @@ Name the packages, classes, interfaces, variables, methods following the convent
 
 </code></pre></div></td>         </tr>         <tr>                      </tr>     </tbody> </table>  </div></div>    <!-- CN15v0 -->
 
+#### Commit Format
+
+When you commit follow this, 
+
+`type : Description`
+`git commit -m "refactor:Login TC updated"`
+
+few types,
+`feat:` when relates to features
+`fix:` when relates to bug fixes
+`docs:` when relates to documentation
+`style:` when relates to style
+`refactore:` when relates to code refactoring
+`test:` when relates to test files
+`revert:` when relates to revert
 
 Reference: 
 https://www.w3schools.com/js/js_conventions.asp
