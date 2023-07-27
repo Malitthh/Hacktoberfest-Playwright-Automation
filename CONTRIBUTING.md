@@ -61,7 +61,7 @@ few types,
 
 `style:` when relates to style
 
-`refactore:` when relates to code refactoring
+`refactor:` when relates to code refactoring
 
 `test:` when relates to test files
 
