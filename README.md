@@ -32,12 +32,18 @@ Refer [CONTRIBUTING.md](https://github.com/Malitthh/playwright-automation/blob/m
 
 ### Installation
 
+for creating a new project,
+
 1. Download Node.js
 2. Set "NODE_HOME" env variables
 3. Create Playwright working folder
 4. Generate package.json
 5. Go inside the project folder and do CMD
 6. `npm init playwright@latest`
+
+for this project,
+
+1. type `npm install` on IDE terminal should be enough
 
 ### Running the Tests
 
