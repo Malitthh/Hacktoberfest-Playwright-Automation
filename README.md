@@ -1,7 +1,7 @@
-## Playwright-Automation
+## Hacktoberfest-Playwright-Automation
 
-<!-- Rename Repository Name `Hacktoberfest-Playwright-Automation` -->
-<!-- Rename Repository Description `Hacktoberfest-Playwright-Automation` -->
+<!-- Rename Repository Name `Playwright-Automation` -->
+<!-- Rename Repository Description `Playwright-Automation` -->
 <!-- Rename Repository URL `Hacktoberfest-Playwright-Automation` in Contributing.md-->
 <!-- ### Welcome to `Hacktoberfest-playwright` -->
 
