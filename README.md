@@ -56,9 +56,9 @@ for this project,
 Please log your concern [CONTACT.md](https://github.com/Malitthh/Hacktoberfest-Playwright-Automation/blob/main/CONTACT.md)
 
 ### Contributors
-<!-- <a href="https://github.com/Malitthh/Hacktoberfest-Playwright-Automation/graphs/contributors">
+<a href="https://github.com/Malitthh/Hacktoberfest-Playwright-Automation/graphs/contributors">
   <img src="https://contributors-img.web.app/image?repo=Malitthh/Hacktoberfest-Playwright-Automation&max=500" alt="Lista de contribuidores" width="100%"/>
-</a> -->
+</a>
 
 
 
