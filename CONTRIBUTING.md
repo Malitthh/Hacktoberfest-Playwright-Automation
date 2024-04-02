@@ -4,7 +4,7 @@
 
 2. Clone the forked repo into your local machine <br>
 ``` bash 
-$ git clone https://github.com/your_username/playwright-automation.git
+$ git clone https://github.com/your_username/Hacktoberfest-Playwright-Automation.git
 ```
 
 3. cd to the repo
