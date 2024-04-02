@@ -1,9 +1,5 @@
 {
-    "Url": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
-    "Username": "Admin",
-    "Password": "admin123",
-    "Employeename": "Charlie Carter",
-    "Firstname": "Soap",
-    "Middlename": "Mactavish",
-    "Lastname": "COD"
+        "Url": "https://www.saucedemo.com/",
+        "Username": "standard_user",
+        "Password": "secret_sauce"
 }

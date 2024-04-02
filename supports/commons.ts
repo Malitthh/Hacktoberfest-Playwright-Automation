@@ -10,31 +10,32 @@ class commons {
     }
 
     public async login() {
-        await this.page.goto("/");
+        await this.page.goto(data.Url);
         await this.page.getByPlaceholder('Username').click();
         await this.page.getByPlaceholder('Username').fill(data.Username);
         await this.page.getByPlaceholder('Password').click();
         await this.page.getByPlaceholder('Password').fill(data.Password);
-        await this.page.getByRole('button', { name: 'Login' }).click();
-        await expect(this.page).toHaveTitle(/OrangeHRM/);
+        await this.page.click('input[data-test="login-button"]');
+        await expect(this.page).toHaveTitle('Swag Labs');
     }
 
-    public async searchSystemUsers() {
-        await this.page.locator("//span[text()='Admin']").click();
-        await this.page.getByPlaceholder('Type for hints...').fill(data.Employeename);
-        await this.page.getByRole('option', { name: data.Employeename }).click();
-        const element = await this.page.waitForSelector(`//div[contains(text(), '${data.Employeename}')]`);
-        const actualText = await element.innerText();
-        await expect(actualText).toEqual(data.Employeename);
-    }
+    public async addtoCart() {
+        await this.page.click('button[data-test="add-to-cart-sauce-labs-backpack"]');
+        await this.page.click('button[data-test="add-to-cart-sauce-labs-bolt-t-shirt"]');
+        await this.page.click('button[data-test="add-to-cart-sauce-labs-fleece-jacket"]');
+        await this.page.click('a.shopping_cart_link[data-test="shopping-cart-link"]');
 
-    public async updateMyInfo(){
-        await this.page.getByRole('link', { name: 'My Info' }).click();
-        await this.page.getByPlaceholder('First Name').fill(data.Firstname);
-        await this.page.getByPlaceholder('Middle Name').fill(data.Middlename);
-        await this.page.getByPlaceholder('Last Name').fill(data.Lastname);
-        await this.page.locator('form').filter({ hasText: 'Employee Full NameNicknameEmployee IdOther IdDriver\'s License NumberLicense Expi' }).getByRole('button').click();
-        await this.page.getByText('Success', { exact: true }).click();
+    }
+    
+    static generateRandomData() {
+        const randomFirstName = `Soap${Math.floor(Math.random() * 100)}`;
+        const randomLastName = `Mactavish${Math.floor(Math.random() * 100)}`;
+        const randomZip = Math.floor(Math.random() * 10000);
+        return {
+            namefirst: randomFirstName,
+            namelast: randomLastName,
+            zip: randomZip.toString()
+        };
     }
 
 }
