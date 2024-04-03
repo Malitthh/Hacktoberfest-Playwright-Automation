@@ -84,6 +84,10 @@ const config = {
       name: 'Google Chrome',
       use: { ...devices['Desktop Chrome'], channel: 'chrome' },
     },
+    {
+      name: 'Mozilla Firefox',
+      use: { ...devices['Desktop Firefox'], channel: 'firefox' },
+    }
   ],
 
   /* Run your local dev server before starting the tests */
