@@ -1,6 +1,6 @@
 const { test, expect } = require("@playwright/test");
 import { Page } from "@playwright/test";
-const data = require("../fixtures/testData.json");
+const data = require("../fixtures/swaglabstestData.json");
 
 class commons {
     page: Page;
@@ -26,7 +26,7 @@ class commons {
         await this.page.click('a.shopping_cart_link[data-test="shopping-cart-link"]');
 
     }
-    
+
     static generateRandomData() {
         const randomFirstName = `Soap${Math.floor(Math.random() * 100)}`;
         const randomLastName = `Mactavish${Math.floor(Math.random() * 100)}`;

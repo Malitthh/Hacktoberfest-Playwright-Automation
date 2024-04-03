@@ -6,6 +6,7 @@ on:
     branches: [main, master]
 jobs:
   test:
+    displayName: Playwright CI/CD
     timeout-minutes: 60
     runs-on: windows-latest
     steps:
