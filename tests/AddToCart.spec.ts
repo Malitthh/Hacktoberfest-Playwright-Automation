@@ -17,12 +17,11 @@ test("Add to Cart", async ({ page }) => {
   await page.type('input[id="postal-code"]', random.zip);
   await page.click("//div[@class='checkout_buttons']/input[@id='continue']");
 
-
-  // // Assertions for Payment Information
+  // Assertions for Payment Information
   await expect(page.waitForSelector('text=Payment Information')).resolves.toBeTruthy();
   await expect(page.waitForSelector('text=SauceCard #31337')).resolves.toBeTruthy();
 
-  // // Assertions for Shipping Information
+  // Assertions for Shipping Information
   await expect(page.waitForSelector('text=Shipping Information')).resolves.toBeTruthy();
   await expect(page.waitForSelector('text=Free Pony Express Delivery!')).resolves.toBeTruthy();
 
