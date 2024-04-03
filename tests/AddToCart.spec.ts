@@ -25,4 +25,25 @@ test("Add to Cart", async ({ page }) => {
   await expect(page.waitForSelector('text=Shipping Information')).resolves.toBeTruthy();
   await expect(page.waitForSelector('text=Free Pony Express Delivery!')).resolves.toBeTruthy();
 
+  // Extract and assert dynamically for Price Total
+  await page.waitForSelector('//div[@class="summary_subtotal_label"]');
+  const itemTotalText = await page.$eval('//div[@class="summary_subtotal_label"]', el => el.textContent);
+  const itemTotal = parseFloat(itemTotalText.split('$')[1].trim());
+
+  await page.waitForSelector('//div[@class="summary_total_label"]');
+  const taxText = await page.$eval('//div[@class="summary_tax_label"]', el => el.textContent);
+  const tax = parseFloat(taxText.split('$')[1].trim());
+
+  await page.waitForSelector('//div[@class="summary_total_label"]');
+  const totalText = await page.$eval('//div[@class="summary_total_label"]', el => el.textContent);
+  const total = parseFloat(totalText.split('$')[1].trim());
+
+  const expectedTotal = itemTotal + tax;
+  expect(total).toBe(expectedTotal);
+  console.log('Total:', total);
+  console.log('Expected Total:', expectedTotal);
+
+  await page.click('//button[@id="finish"]');
+  await page.waitForSelector('//h2[normalize-space()="Thank you for your order!"]');
+
 });
