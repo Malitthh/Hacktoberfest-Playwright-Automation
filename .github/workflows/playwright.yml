@@ -5,7 +5,7 @@ on:
   pull_request:
     branches: [main, master]
 jobs:
-  - name: e2e_test1
+  - job: e2e_test1
     timeout-minutes: 60
     runs-on: windows-latest
     steps:
