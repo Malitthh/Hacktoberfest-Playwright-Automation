@@ -4,5 +4,5 @@ import commons from "../supports/commons";
 
 test("Login to Swag Labs", async ({ page }) => {
     const common = new commons(page);
-    await common.login()
+    await common.login();
 })

@@ -3,7 +3,7 @@ import commons from "../supports/commons";
 
 test.beforeEach(async ({ page }) => {
   const common = new commons(page);
-  await common.login()
+  await common.login();
 })
 
 test("Add to Cart", async ({ page }) => {
