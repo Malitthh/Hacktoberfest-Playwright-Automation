@@ -15,6 +15,10 @@ jobs:
           node-version: 18
       - name: Install dependencies
         run: npm ci
+      - name: Install Chrome browser
+        uses: browser-actions/setup-chrome@latest
+      - name: Install Firefox browser
+        uses: browser-actions/setup-firefox@latest
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
       - name: Run Playwright tests
