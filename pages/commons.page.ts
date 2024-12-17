@@ -1,6 +1,5 @@
 const { test, expect } = require("@playwright/test");
 import { Locator, Page } from "@playwright/test";
-const data = require("../fixtures/swaglabstestData.json");
 
 export class commons {
   readonly page: Page;
