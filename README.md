@@ -42,7 +42,7 @@ for this project,
 
 ### Running the Tests
 
-1. `npx playwright test --ui` - ui mode
+1. `npx playwright test --ui` - UI mode
 2. `npx playwright test` - run all tests
 3. `npx playwright test TC.spec.ts` - run a specific test
 4. `npx playwright test TC.spec.ts --headed` - run a specific test with UI
@@ -50,7 +50,7 @@ for this project,
 
 ### Playwright Recorder
 
-1. `npx playwright codegen --test-id-attribute="data-cy"` - recorder command
+1. `npx playwright codegen --test-id-attribute="data-cy"` - playwright recorder
 
 ### Report Generation
 
