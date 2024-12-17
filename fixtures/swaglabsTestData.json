@@ -1,5 +1,18 @@
 {
-        "Url": "https://www.saucedemo.com/",
-        "Username": "standard_user",
-        "Password": "secret_sauce"
+  "products": [
+    {
+      "id": 1,
+      "name": "Sauce Labs Backpack",
+      "price": 29.99,
+      "description": "A sleek and durable backpack for daily use.",
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "name": "Sauce Labs Bike Light",
+      "price": 9.99,
+      "description": "A bright and efficient bike light for night rides.",
+      "quantity": 2
+    }
+  ]
 }

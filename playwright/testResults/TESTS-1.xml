@@ -1,0 +1,59 @@
+<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="314.9152039999999">
+<testsuite name="test_swagLabsModule1\AddToCart.spec.ts" timestamp="2024-12-17T06:51:47.688Z" hostname="edge" tests="1" failures="1" skipped="0" time="300.015" errors="0">
+<testcase name="Playwright 101: Beginner&apos;s Guide › Add to Cart" classname="test_swagLabsModule1\AddToCart.spec.ts" time="300.015">
+<failure message="AddToCart.spec.ts:6:7 Add to Cart" type="FAILURE">
+<![CDATA[  [edge] › test_swagLabsModule1\AddToCart.spec.ts:6:7 › Playwright 101: Beginner's Guide › Add to Cart 
+
+    Test timeout of 300000ms exceeded.
+
+    Error: locator.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('button[data-test="add-to-cart-sauce-labs-backpack"]')
+    ============================================================
+
+       at ..\pages\commons.page.ts:77
+
+      75 |
+      76 |   async addtoCart() {
+    > 77 |     await this.addToCartBackpackButton.click();
+         |                                        ^
+      78 |     await this.addToCartTShirtButton.click();
+      79 |     await this.addToCartJacketButton.click();
+      80 |     await this.shoppingCartLink.click();
+
+        at commons.addtoCart (D:\Learning\Source\Repos\Hacktoberfest-Playwright-Automation\pages\commons.page.ts:77:40)
+        at D:\Learning\Source\Repos\Hacktoberfest-Playwright-Automation\e2e\test_swagLabsModule1\AddToCart.spec.ts:13:18
+
+    Pending operations:
+      - locator.click at pages\commons.page.ts:77:40
+
+
+    attachment #1: video (video/webm) ──────────────────────────────────────────
+    test-results\test_swagLabsModule1-AddToCart-Playwright-101-Beginner-s-Guide-Add-to-Cart-edge\video.webm
+    ────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────
+    test-results\test_swagLabsModule1-AddToCart-Playwright-101-Beginner-s-Guide-Add-to-Cart-edge\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────
+    test-results\test_swagLabsModule1-AddToCart-Playwright-101-Beginner-s-Guide-Add-to-Cart-edge\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\test_swagLabsModule1-AddToCart-Playwright-101-Beginner-s-Guide-Add-to-Cart-edge\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\test_swagLabsModule1-AddToCart-Playwright-101-Beginner-s-Guide-Add-to-Cart-edge\video.webm]]
+
+[[ATTACHMENT|..\test-results\test_swagLabsModule1-AddToCart-Playwright-101-Beginner-s-Guide-Add-to-Cart-edge\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\test_swagLabsModule1-AddToCart-Playwright-101-Beginner-s-Guide-Add-to-Cart-edge\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
