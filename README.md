@@ -42,10 +42,15 @@ for this project,
 
 ### Running the Tests
 
-1. `npx playwright test` - run all tests
-2. `npx playwright test TC.spec.ts` - run a specific test
-3. `npx playwright test TC.spec.ts --headed` - run a specific test with UI
-4. `npx playwright test TC.spec.ts --project chromium --headed` - run a specific test with UI with specific browser
+1. `npx playwright test --ui` - ui mode
+2. `npx playwright test` - run all tests
+3. `npx playwright test TC.spec.ts` - run a specific test
+4. `npx playwright test TC.spec.ts --headed` - run a specific test with UI
+5. `npx playwright test TC.spec.ts --project chromium --headed` - run a specific test with UI with specific browser
+
+### Playwright Recorder
+
+1. `npx playwright codegen --test-id-attribute="data-cy"` - recorder command
 
 ### Report Generation
 
