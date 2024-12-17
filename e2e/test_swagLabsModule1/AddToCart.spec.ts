@@ -7,8 +7,8 @@ test.describe("Playwright 101: Beginner's Guide", async () => {
     const common = new commons(page);
     const randomData = commons.generateRandomData();
 
-    await common.navigateToBaseUrl();
-    // await common.login('standard_user', 'secret_sauce');
+    // await common.navigateToBaseUrl();
+    await common.login('standard_user', 'secret_sauce');
 
     await common.addtoCart();
     await common.checkoutProcess(randomData);
