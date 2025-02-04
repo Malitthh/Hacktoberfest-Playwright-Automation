@@ -123,26 +123,5 @@ export class commons {
         await this.finishButton.click();
         await expect(this.orderConfirmationText).toBeVisible();
     }
-
-    async closeAdButton() {
-        // Locate the shadow host element
-        const shadowHost = await this.page.locator('ct-web-popup-imagenonly').elementHandle();
-        if (!shadowHost) throw new Error('Shadow host not found');
-
-        // Access the shadow root
-        const shadowRootHandle = await shadowHost.evaluateHandle((el) => el.shadowRoot);
-        const shadowRoot = shadowRootHandle.asElement();
-        if (!shadowRoot) throw new Error('Shadow root not accessible');
-
-        // Locate the close button inside Shadow DOM
-        const closeButtonHandle = await shadowRoot.evaluateHandle((root) => root.querySelector('#close'));
-        const closeButton = closeButtonHandle.asElement();
-        if (!closeButton) throw new Error('Close button not found inside Shadow DOM');
-
-        // Click the close button
-        await closeButton.click();
-
-        console.log('Popup closed successfully!');
-    }
 }
 export default commons;
